@@ -11,3 +11,5 @@ Generally we do sentiment analysis on labelled data.Here we dont have labelled d
 I used sklearn's tfidf vectorizerfor vectorizing the data and build classification model using logistic regression on how likely the predicted labels are correct.
 
 We generally notice comments and ratings of the product in ecommerce sites.If we look closer we will notice bad rating even for positive comment. So, I realized the sentiment analysis should be done based on comment rather than rating!Ofcourse ratings will be useful for company to showcase the product but deeper its a trap.
+
+In sentimentanalysis.ipynb file sentiment is predicted on both comments and review columns. Just minimal in changes in the code (replacing review with comments) can be better for sentiment analysis using review section
