@@ -15,4 +15,5 @@ We generally notice comments and ratings of the product in ecommerce sites.If we
 In sentimentanalysis.ipynb file sentiment is predicted on both comments and review columns. Just minimal in changes in the code (replacing review with comments) can be better for sentiment analysis using review section
 
 **Note: In the reviews file I had scraped reviews from flipkart website which had the classes mentioned. Sometimes the classes would change since flipkart follows automation process to get ware of any bots. So kindly change the classes if you notice any errors**
-You could notice some of the datasets created with this code.
+
+You could notice above some of the datasets created with this code.
