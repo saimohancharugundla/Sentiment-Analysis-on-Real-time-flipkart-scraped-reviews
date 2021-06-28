@@ -13,3 +13,6 @@ I used sklearn's tfidf vectorizerfor vectorizing the data and build classificati
 We generally notice comments and ratings of the product in ecommerce sites.If we look closer we will notice bad rating even for positive comment. So, I realized the sentiment analysis should be done based on comment rather than rating!Ofcourse ratings will be useful for company to showcase the product but deeper its a trap.
 
 In sentimentanalysis.ipynb file sentiment is predicted on both comments and review columns. Just minimal in changes in the code (replacing review with comments) can be better for sentiment analysis using review section
+
+**Note: In the reviews file I had scraped reviews from flipkart website which had the classes mentioned. Sometimes the classes would change since flipkart follows automation process to get ware of any bots. So kindly change the classes if you notice any errors**
+You could notice some of the datasets created with this code.
