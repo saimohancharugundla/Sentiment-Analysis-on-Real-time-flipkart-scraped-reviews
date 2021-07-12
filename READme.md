@@ -18,4 +18,10 @@ In sentimentanalysis.ipynb file sentiment is predicted on both comments and revi
 
 **You could contribute to code by just pulling the request. If it is accepted ,your PR could be merged**.
 
-You could notice above some of the datasets created with flipkartreviews.py file code.
+You could notice the folder above where it contains some of the datasets created with flipkartreviews.py file code.
+
+# The central idea of the project is here!
+
+![idealcaseofproject](https://user-images.githubusercontent.com/55023307/125293726-4f6f3680-e341-11eb-87ad-5e64b88f4ed9.png)
+
+Here in the above image you could see the positive rating for negative comment. This could be good for any business since the rating system is being calculated using user ratings. I believe one can express the review of the product only through comments/review_description. So this project calculates the rating of the product based on the user reviews.
