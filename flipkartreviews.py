@@ -18,7 +18,7 @@ try:
 		q = t.get('href')
 		link.append(q)
 		for i in link:
-			if re.search("LSTMOB[A-Z]|[0-9]|[A-Z][0-9]|[0-9][A-Z]|[0-9][A-Z]*|[A-Z][0-9]*",i):
+			if re.search("LST[A-Z]|[0-9]|[A-Z][0-9]|[0-9][A-Z]|[0-9][A-Z]*|[A-Z][0-9]*",i):
 				ln = i
 		l = "https://www.flipkart.com{}".format(ln)	
 	print("Processing..!!")
